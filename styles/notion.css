@@ -2020,7 +2020,9 @@ pre[class*='language-mermaid'] {
 code.language-mermaid {
   display: none;
 }
-
+.mermaid .invisible{
+  visibility: inherit;
+}
 .code-toolbar {
   @apply w-full shadow-md pb-0;
 }
